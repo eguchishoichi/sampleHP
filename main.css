@@ -780,6 +780,40 @@ header {
   padding-bottom: 1vh;
 }
 
+.access {
+  margin-top: 5vh;
+}
+
+.access .position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.access .position h2 {
+  border-bottom: 3px solid black;
+  display: inline-block;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.access .position p {
+  font-size: 0.8vw;
+}
+
+.access .position .main-position {
+  width: 45%;
+}
+
+.access .position .sub-position {
+  width: 45%;
+}
+
 .form-point {
   margin-top: 7vh;
 }
@@ -793,6 +827,10 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.contact .form-item input, .contact .form-item textarea {
+  border: 3px solid rgba(66, 66, 66, 0.3);
 }
 
 .contact .form-item .form-label {
@@ -941,6 +979,21 @@ header {
   }
   .school {
     width: 21%;
+  }
+  .access .position {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .access .position .main-position {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3vh;
+  }
+  .access .position .sub-position {
+    width: 90%;
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=main.css.map */
