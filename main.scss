@@ -667,6 +667,36 @@ header {
   }
 }
 
+
+// アクセス
+.access{
+  margin-top: 5vh;
+  
+.position{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  h2{
+    border-bottom: 3px solid black;
+    display: inline-block;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  p{
+    font-size: 0.8vw;
+  }
+  .main-position{
+    width: 45%;
+  }
+  .sub-position{
+    width: 45%;
+  }
+}
+
+}
+
+
 // contact
 
 .form-point {
@@ -678,6 +708,9 @@ header {
   margin-bottom: 7vh;
   .form-item {
     display: flex;
+    input,textarea{
+      border: 3px solid rgba(66, 66, 66, 0.3);
+    }
     .form-label {
       width: 20%;
       font-size: 1vw;
@@ -690,6 +723,8 @@ header {
       width: 100%;
     }
   }
+
+
 }
 
 // フッター
@@ -838,8 +873,22 @@ header {
     width: 21%;
   }
 
+  .access{
+    .position{
+      flex-direction: column;
+      
+      .main-position{
+        width: 90%;
+        margin: 0 auto ;
+        margin-bottom: 3vh;
+      }
+      .sub-position{
+        width: 90%;
+        margin: 0 auto ;
+      }
+    }
+  }
+
+
 }
 
-@media (max-width: 450px) {
-  
-}
