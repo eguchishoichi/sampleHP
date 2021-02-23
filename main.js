@@ -29,6 +29,10 @@ $('.education-bt').click(function() {
   $("html,body").animate({scrollTop:$(".education").offset().top});
 });
 
+$('.access-bt').click(function() {
+  $("html,body").animate({scrollTop:$(".access").offset().top});
+});
+
 $('.contact-bt').click(function() {
   $("html,body").animate({scrollTop:$(".contact").offset().top});
 });
